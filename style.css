@@ -6,7 +6,12 @@
 
 :root{
 
-    --main_text_color:#544837;
+    --main_text_color:#2F281E;
+    --button_color:#BCD0E5;  
+    --h1_color: #2F281E;
+    --p_hero: #544837;
+    --second_text:#FF9900;
+    
 }
 
 html, body{
@@ -28,13 +33,135 @@ html, body{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 17px 0;
     
 }
 
-.main_nav_list{
+.img{
+    width: 100%;
+    display: block;
+}
+
+.logo {
+    width: 200px;
+}
+
+.main_nav_list li{
     display: inline-block;
-}
-
-.header_section{
     
 }
+
+.main_nav_list li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.main_nav a {
+    margin-right: 20px;
+}
+
+.bt_b {
+    border: 1px solid var(--button_color);
+}
+
+.button {
+    text-transform: capitalize;
+    color: #2F281E;
+    border: 1px solid #BCD0E5;
+    border-radius: 4px;
+    font-weight: 600;
+    padding: 13px 26px;
+    font-family: "Poppins", sans-serif;
+}
+
+.button.accent {
+    background: #FF9900;
+    border-color: #FF9900;
+    color: #fff;
+}
+
+.buttons a {
+    text-decoration: none;
+}
+
+.hero {
+    min-height: 60vh;
+}
+
+.hero_content{
+display: flex;
+align-items: center;
+justify-content: space-between;
+flex-wrap: wrap;
+}
+
+.text-col{
+    width: 100%;
+    max-width: 500px;
+}
+
+.site_title{
+   color: var(--h1_color); 
+   font-weight: bold;
+   font-size: 44px;
+   font-family: "Poppins", sans-serif;
+   line-height: 54px;
+   margin-bottom: 30px;
+}
+
+.site_description {
+    color: var(--p_hero);
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+
+.img-col {
+    width: 100%;
+    max-width: 644px;
+}
+
+.underline {
+    text-decoration: underline !important;
+  }
+
+.link_video {
+    color: var(--second_text);
+    margin-left: 20px;
+    font-weight: 600;
+    font-size: 16;
+    font-family: "Poppins", sans-serif;
+}
+
+.link_video::before{
+    content: url(./assets/images/Triangle\ Copy\ 6.png);
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.feature_header{
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    font-size: 36;
+    text-align: center;
+    margin-bottom: 30px;
+    line-height: 30px;
+}
+
+.feature_list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.content_block{
+    margin-bottom: 10px;
+}
+
+.feature {
+    min-height: 100vh;
+}
+
