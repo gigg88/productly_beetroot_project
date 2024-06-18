@@ -147,21 +147,108 @@ flex-wrap: wrap;
     font-size: 36;
     text-align: center;
     margin-bottom: 30px;
+    margin-top: 30px;
     line-height: 30px;
+    display: flex; /* Makes the header a flexbox container */
+    flex-direction: column; /* Stacks elements vertically within the container */
+    
+    
 }
+
 
 .feature_list{
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+    margin-bottom: 30px;
+    
 }
 
 .content_block{
     margin-bottom: 10px;
+    width: 25%;
+    min-width: 150px;
+    
 }
 
 .feature {
-    min-height: 100vh;
+    margin-bottom: 70px;
 }
+
+.uppercase {
+text-transform: uppercase;
+}
+
+.central {
+    justify-content: center;
+    display: flex;
+}
+
+.ft-p{
+    font-family: "Poppins", sans-serif;
+}
+
+.fw-medium {
+    font-weight: 500;
+}
+
+.fw-semibold{
+    font-weight: 600;
+}
+.fw-bold{
+font-weight: bold;
+}
+
+.fs-22{
+    font-size: 22px;
+}
+
+.fs-16{
+    font-size: 16px;
+}
+
+.fs-36{
+    font-size: 36px;
+}
+
+.mb-13{
+    margin-bottom: 13px;
+}
+
+.mb-30{
+    margin-bottom: 30px;
+}
+
+.mb-22{
+    margin-bottom: 22px;
+}
+
+.lh-26 {
+    line-height: 26px;
+}
+
+
+.effortless_validation_content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+ }
+
+ .effortless_validation {
+    min-height: 60vh;
+}
+
+.text-col-ev {
+    width: 100%;
+    max-width: 486px;
+}
+
+.img-col-ev {
+    width: 100%;
+    max-width: 520px;
+}
+
+
 
