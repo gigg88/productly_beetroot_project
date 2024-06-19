@@ -17,7 +17,7 @@
 html, body{
     height: 100%;
     width: 100%;
-    font-size: 16px;
+    
     color: var(--main_text_color);
     
 }
@@ -131,7 +131,7 @@ flex-wrap: wrap;
     color: var(--second_text);
     margin-left: 20px;
     font-weight: 600;
-    font-size: 16;
+    font-size: 16px;
     font-family: "Poppins", sans-serif;
 }
 
@@ -142,18 +142,26 @@ flex-wrap: wrap;
 }
 
 .feature_header{
-    font-family: "Poppins", sans-serif;
-    font-weight: bold;
-    font-size: 36;
-    text-align: center;
-    margin-bottom: 30px;
-    margin-top: 30px;
-    line-height: 30px;
-    display: flex; /* Makes the header a flexbox container */
-    flex-direction: column; /* Stacks elements vertically within the container */
     
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+   margin-bottom: 54px;
+  text-align: center; 
+  padding: 0 200px;
+
+
+    /* Makes the header a flexbox container */
+     /* Stacks elements vertically within the container */
+    /*text-align: center;
+    display: flex;
+     */
+}
+
+.h1-measurements {
     
 }
+
 
 
 .feature_list{
