@@ -258,5 +258,22 @@ font-weight: bold;
     max-width: 520px;
 }
 
+.product_managers_content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.img-col-pm {
+    width: 100%;
+    max-width: 532.61px;
+}
+
+.text-col-pm {
+    width: 100%;
+    max-width: 486px;
+}
+
 
 
