@@ -129,16 +129,22 @@ flex-wrap: wrap;
 
 .link_video {
     color: var(--second_text);
-    margin-left: 20px;
+    margin-left: 30px;
     font-weight: 600;
     font-size: 16px;
     font-family: "Poppins", sans-serif;
 }
 
 .link_video::before{
-    content: url(./assets/images/Triangle\ Copy\ 6.png);
-    margin-right: 10px;
-    
+    content: '';
+    margin-right: 8.5px;
+    display: inline-block;
+    margin-bottom: -3px;
+     background-image: url(./assets/images/Triangle\ Copy\ 6.png);
+     background-repeat: no-repeat;
+     width: 20px;
+     height: 17px;
+     background-size: 100% 100%;
 }
 
 .feature_header{
