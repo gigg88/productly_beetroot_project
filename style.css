@@ -158,12 +158,6 @@ flex-wrap: wrap;
      */
 }
 
-.h1-measurements {
-    
-}
-
-
-
 .feature_list{
     display: flex;
     align-items: center;
@@ -302,6 +296,7 @@ font-weight: bold;
     justify-content: space-between;
     flex-wrap: wrap;
  }
+
 
 
 
