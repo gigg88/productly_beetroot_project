@@ -93,7 +93,7 @@ body {
 }
 
 .hero {
-    min-height: 60vh;
+    
     /* best way ???? */
     margin-bottom: 110px;
 }
@@ -114,6 +114,7 @@ body {
     padding: 14px 41px;
     font-family: "Poppins", sans-serif;
     margin-right: 14px;
+    margin-bottom: 90px;
 }
 
 .button_hero.accent {
@@ -290,7 +291,7 @@ body {
 }
 
 .effortless_validation {
-    min-height: 60vh;
+    margin-bottom: 101px;
 }
 
 .text-col-ev {
@@ -301,6 +302,10 @@ body {
 .img-col-ev {
     width: 100%;
     max-width: 520px;
+}
+
+.product_managers {
+    margin-bottom: 104px;
 }
 
 .product_managers_content {
