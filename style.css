@@ -368,3 +368,11 @@ body {
     justify-content: space-between;
     flex-wrap: wrap;
 }
+
+.word_spacing{
+    padding: 65px;
+}
+
+.word_spacing1{
+    padding: 30px;
+}
