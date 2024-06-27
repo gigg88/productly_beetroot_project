@@ -385,4 +385,51 @@ body {
     flex-wrap: wrap;
 }
 
+.footer_section{
+    margin-bottom: 83px;
+    font-family: "Poppins", sans-serif;
+}
+
+.footer_content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_list_first{
+    min-width: 118px;
+    height: 205px;
+    align-items: end;
+    display: flex;
+    font-size: 16px;
+}
+
+.footer_list_second{
+    min-width: 131px;
+    height: 205px;
+    align-items: end;
+    display: flex;
+    font-size: 16px;
+    
+}
+
+.footer_list_first li a,
+.footer_list_second li a {
+    text-decoration: none;
+}
+
+.footer_list_first ul,
+.footer_list_second ul {
+    list-style-type: none;
+}
+
+.footer_input{
+    align-items: end;
+    display: flex;
+    
+}
+
+
+
+
+
 
