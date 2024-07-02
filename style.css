@@ -13,6 +13,7 @@
     --p_hero: #544837;
     --second_text: #FF9900;
     --button_header_text_color: #173A56;
+    --cursor_purple: #7752BE;
 
 }
 
@@ -460,7 +461,22 @@ body {
     margin-top: 21px;
 }
 
+.feature_arrow{
+    width: 50px;
+    height: 50px;
+    border-radius: 18px;
+    background-color: var(--cursor_purple);
+    display: flex;
+}
 
+.feature_arrow i {
+    font-size: 24px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    
+  }
 
 
 
