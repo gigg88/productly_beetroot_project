@@ -187,6 +187,22 @@ body {
     background-size: 100% 100%;
 }
 
+.feature_arrow{
+    width: 50px;
+    height: 50px;
+    border-radius: 18px;
+    background-color: var(--cursor_purple);
+    display: flex;
+    justify-content: center;
+}
+
+.feature_arrow i {
+    font-size: 18px;
+    color: white;
+    display: flex;
+    align-items: center;
+ }
+
 .feature_header {
     font-family: "Poppins", sans-serif;
     font-weight: 700;
@@ -461,22 +477,7 @@ body {
     margin-top: 21px;
 }
 
-.feature_arrow{
-    width: 50px;
-    height: 50px;
-    border-radius: 18px;
-    background-color: var(--cursor_purple);
-    display: flex;
-}
 
-.feature_arrow i {
-    font-size: 24px;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-self: center;
-    
-  }
 
 
 
