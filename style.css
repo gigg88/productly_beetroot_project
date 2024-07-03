@@ -14,6 +14,8 @@
     --second_text: #FF9900;
     --button_header_text_color: #173A56;
     --cursor_purple: #7752BE;
+    --icon_heart:#F03E3D;
+    --icon_hourglass: #4DADF7;
 
 }
 
@@ -33,6 +35,8 @@ body {
     padding: 0 5px;
     flex-wrap: wrap;
 }
+
+/*Header CSS*/
 
 .header_content {
     display: flex;
@@ -101,6 +105,8 @@ body {
 .buttons a {
     text-decoration: none;
 }
+
+/*Hero CSS*/
 
 .hero {
     
@@ -187,30 +193,25 @@ body {
     background-size: 100% 100%;
 }
 
-.feature_arrow{
-    width: 50px;
-    height: 50px;
-    border-radius: 18px;
-    background-color: var(--cursor_purple);
-    display: flex;
-    justify-content: center;
-}
-
-.feature_arrow i {
-    font-size: 18px;
-    color: white;
-    display: flex;
-    align-items: center;
- }
+/*feature CSS*/
 
 .feature_header {
-    font-family: "Poppins", sans-serif;
-    font-weight: 700;
-    font-size: 36px;
     margin-bottom: 54px;
     text-align: center;
+    display: flex; /* Added flexbox for centering */
+    justify-content: center; /* Horizontally center the content */
+    align-items: center; /* Vertically center the content */
+    width: 100%; /* Ensures h2 fills available width */
     padding: 0 200px;
-}
+  }
+  
+  .feature_header h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.5; /* Adjust line-height for better spacing */
+    /* No need for additional styles to break into multiple lines */
+    max-width: 539px;
+  }
 
 .feature_list {
     display: flex;
@@ -219,6 +220,47 @@ body {
     flex-wrap: wrap;
     margin-bottom: 30px;
 }
+
+.feature_arrow{
+    
+    background-color: var(--cursor_purple);
+    display: flex;
+    justify-content: center;
+}
+
+.feature_stumbleupon{
+    background-color: var(--second_text);
+    display: flex;
+    justify-content: center;
+}
+
+.feature_stumbleupon{
+    background-color: var(--second_text);
+    display: flex;
+    justify-content: center;
+}
+
+.feature_heart{
+    background-color: var(--icon_heart);
+    display: flex;
+    justify-content: center;
+}
+
+.feature_hourglass{
+    background-color: var(--icon_hourglass);
+    display: flex;
+    justify-content: center;
+}
+
+.feature_icon_i {
+    font-size: 18px;
+    color: white;
+    display: flex;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 18px;
+ }
 
 .button_feature {
     text-transform: capitalize;
@@ -237,8 +279,9 @@ body {
 
 .content_block {
     margin-bottom: 34px;
-    width: 25%;
-    min-width: 150px;
+    width: 100%;
+    max-width: 240px;
+    max-height: 178px;
 }
 
 .feature {
@@ -406,6 +449,8 @@ body {
 .footer_section{
     margin-bottom: 83px;
     font-family: "Poppins", sans-serif;
+    min-height: 308px;
+    height: 100%;
     
 }
 
